@@ -9,6 +9,15 @@ from unicodedata import *
 import urllib.request
 import regex as re
 
+
+def debug_string(self, string):
+    """
+    Debug function to write Unicode information
+    """
+    for char in string:
+        # print(unicodedata.)                                                                                                                        
+        pass
+
 class MoreUnicodedata:
     """
     A class that extends the functionality of the standard Python libary's unicodedata module that includes
